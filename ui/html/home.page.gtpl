@@ -9,7 +9,7 @@
             <tr></tr>
             {{range .Snippets}} 
                 <tr>
-                    <td><a href='/snippet?id={{.ID}}'>{{.Title}}</a></td> 
+                    <td><a href='/snippet/{{.ID}}'>{{.Title}}</a></td>
                     <td>{{humanDate .Created | printf "Created: %s"}}</td>
                     <td>#{{.ID}}</td>
                 </tr>

@@ -16,6 +16,7 @@
     <header><h1><a href='/'>Snippetbox</a></h1> </header>
     <nav>
         <a href='/'>Home</a>
+        <a href='/snippet/create'>Create snippet</a>
     </nav> 
 
     {{block "sidebar" .}}
